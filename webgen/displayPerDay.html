@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "Commits par jour"
+		},
+		data: [
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "column",
+			dataPoints: [
+{label:'2021-01-02', y:6},
+{label:'2021-01-03', y:3},
+{label:'2020-11-19', y:4},
+{label:'2020-08-27', y:4},
+{label:'2020-11-18', y:3},
+{label:'2020-10-03', y:4},
+{label:'2020-11-15', y:7},
+{label:'2020-10-28', y:3},
+{label:'2020-09-11', y:4},
+{label:'2020-09-14', y:1},
+{label:'2020-09-13', y:1},
+{label:'2020-10-11', y:1},
+{label:'2020-10-13', y:2},
+{label:'2020-11-01', y:1},
+{label:'2020-10-12', y:8},
+{label:'2020-11-20', y:1},
+{label:'2020-12-30', y:1},
+{label:'2020-09-29', y:1},
+{label:'2020-10-15', y:2},
+{label:'2020-11-29', y:3},
+{label:'2020-10-14', y:3},
+{label:'2020-11-04', y:3},
+{label:'2020-10-17', y:3},
+{label:'2020-11-05', y:17},
+{label:'2020-09-09', y:2},
+{label:'2020-08-31', y:1},
+{label:'2020-12-03', y:3},
+{label:'2020-11-14', y:1},
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+</body>
+</html>

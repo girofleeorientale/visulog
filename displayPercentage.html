@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "Pourcentage de la participation"
+		},
+		data: [
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "doughnut",
+			dataPoints: [
+{label:'NASR amira <nasramira8@gmail.com>', y:10.75},
+{label:'RAVENEAU GRISARD emilien <hydrolien.f@gmail.com>', y:1.08},
+{label:'Boukhalfa Hamitouche <hamitoucheboukhalfa2019@outlook.fr>', y:5.38},
+{label:'RAVENEAU GRISARD emilien <emilien.raveneau@gmail.com>', y:24.73},
+{label:'Anna Golikova <ann.golikova@gmail.com>', y:18.28},
+{label:'Aldric Degorre <adegorre@irif.fr>', y:12.90},
+{label:'Colin Gonzalez <colin@nomadic-labs.com>', y:1.08},
+{label:'GOLIKOVA anna <anna.golikova@gmail.com>', y:4.30},
+{label:'HydrolienF <hydrolien.f@gmail.com>', y:9.68},
+{label:'@nasra <nasramira8@gmail.com>', y:7.53},
+{label:'rachi <rachiadel813@gmail.com>', y:1.08},
+{label:'HAMITOUCHE boukhalfa <hamitoucheboukhalfa2019@outlook.fr>', y:3.23},
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+comment %    cl-pu-po-pr-sh-ln   name of the file
+null%0  0  0  0  0  5    ulog/analyzer/text2.md
+null%0  0  0  0  0  6    ulog/analyzer/texttxt.txt
+null%0  0  0  0  0  6    ulog/analyzer/text.md
+0%   (0/15)  2  13 0  0  5  106  ulog/analyzer/GString.java
+50%  (2/4)   1  2  0  1  0  70   ulog/analyzer/Analyzer.java
+0%   (0/11)  2  9  0  0  0  82   ulog/analyzer/CountCommitsPerDayPlugin.java
+null%0  0  0  0  0  7    ulog/analyzer/text3.md
+0%   (0/5)   1  4  0  0  0  24   ulog/analyzer/AnalyzerResult.java
+0%   (0/14)  1  13 0  0  6  95   ulog/analyzer/CString.java
+0%   (0/10)  2  8  0  0  0  74   ulog/analyzer/CountCommitsPerAuthorPlugin.java
+200% (4/2)   2  0  0  0  0  33   ulog/analyzer/AnalyzerPlugin.java
+6%   (1/15)  2  13 0  0  0  167  ulog/analyzer/Diff.java
+9%   (7/76)   13 62 0  1  11  675 global
